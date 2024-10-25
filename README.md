@@ -32,8 +32,6 @@ o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usan
 | bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose                  |
 | Para:                                                                          |
 | npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose |
-| Motivo:                                                                        |
-| Para uso no windows                                                            |
 
 
 **Rotas criadas:**
@@ -56,3 +54,8 @@ o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usan
 
 ## Video Demo
 [![Assista ao vídeo](./images/video2.jpg)](https://youtu.be/K_-vpvMQup0)
+
+## Contato
+:phone: (85) 9 9150-8104
+:email: geraldo@gpsoft.com.br
+:smiley: Geraldo Patrício Melo
