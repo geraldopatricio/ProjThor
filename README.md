@@ -5,7 +5,7 @@
 ## Objetivo e detalhes do Projeto
 ```bash
 Analisador de Hierarquia de Palavras
-1 - Analisa via console a hierarqui e niveis, mostrando a quantidade e nivel
+1 - Analisa via console a hierarquia e niveis, mostrando a quantidade e nivel
     encontrado da palavra no backend.
 2 - Informa a quantidade de niveis desejados no front, montando o json com base
     na palavra e nível.
