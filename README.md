@@ -32,10 +32,10 @@ para:
 $ npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose
 
 As rotas criadas são:
-Para saver no o json no backend:
+Para salvar no o json no backend:
 http://localhost:4000/save-json
 
-PAra fazer o download:
+Para fazer o download:
 http://localhost:4000/download-json
 
 ```
