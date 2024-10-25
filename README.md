@@ -23,7 +23,7 @@ Mesmo processo para o frontend
 O backend está para executar na porta 4000 e o front na 3000
 
 Para testes iniciais no backend...
-o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node.
+o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node, veja abaixo.
 ```
 
 | Mudanças efetuardas no projeto inicial                                         |
