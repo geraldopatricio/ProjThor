@@ -3,12 +3,33 @@ import express from 'express';
 import fs from 'fs';
 import path from 'path';
 import multer from 'multer';
-import routes from './routes';
+import swaggerJsDoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
 
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(routes);
+
+// Configuração do Swagger
+const swaggerOptions = {
+    swaggerDefinition: {
+        openapi: '3.0.0',
+        info: {
+            title: 'API Documentation',
+            version: '1.0.0',
+            description: 'API documentation for the JSON saving service',
+        },
+        servers: [
+            {
+                url: 'http://localhost:4000', // URL do seu servidor
+            },
+        ],
+    },
+    apis: ['./src/app.ts'], // Ajuste o caminho para incluir o arquivo app.ts onde a rota está definida
+};
+
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Configuração de armazenamento do multer
 const storage = multer.diskStorage({
@@ -17,11 +38,44 @@ const storage = multer.diskStorage({
     },
     filename: (req, file, cb) => {
         cb(null, 'tree.json');
-    }
+    },
 });
 
 const upload = multer({ storage });
 
+/**
+ * @swagger
+ * /save-json:
+ *   post:
+ *     summary: Save JSON data
+ *     description: Saves JSON data to a file named 'tree.json' in the 'dicts' directory.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             additionalProperties: true
+ *     responses:
+ *       200:
+ *         description: JSON saved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *       500:
+ *         description: Error saving file
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ */
 app.post('/save-json', (req, res) => {
     const jsonData = req.body;
 
