@@ -24,7 +24,7 @@ O backend está para executar na porta 4000 e o front na 3000
 
 Para testes iniciais no backend...
 o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node.
-
+```console
 *de:*
 $ bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose
 para: 
