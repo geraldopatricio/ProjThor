@@ -38,7 +38,8 @@ http://localhost:4000/download-json
 
 ```
 
-\`\`\`bash
+
+```console
 teste
 
 ```
