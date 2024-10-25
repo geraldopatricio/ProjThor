@@ -26,9 +26,9 @@ Para testes iniciais no backend...
 o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node.
 ```
 
-| Mudanças efetuardas para o projeto inicial                                     |
+| Mudanças efetuardas no projeto inicial                                         |
 |--------------------------------------------------------------------------------|
-| De:                                                                            |
+| De bun:                                                                            |
 | bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose                  |
 | Para:                                                                          |
 | npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose |
