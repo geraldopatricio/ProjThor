@@ -34,10 +34,8 @@ o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usan
 | npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose |
 
 
-** As rotas criadas **
-Para salvar o json no backend:
+**As rotas criadas**
 - [x] http://localhost:4000/save-json
-Para fazer o download:
 - [x] http://localhost:4000/download-json
 
 
