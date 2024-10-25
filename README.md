@@ -33,4 +33,4 @@ O backend está para executar na porta 4000 e o front na 3000
 <img src="./images/teste2.jpg" width="800" alt="Logo" />
 
 ## Video Demo
-[![Assista ao vídeo](./images/video2.jpg)](https://www.youtube.com/m5abKpHU7sk)
+[![Assista ao vídeo](./images/video2.jpg)](https://youtu.be/m5abKpHU7sk)
