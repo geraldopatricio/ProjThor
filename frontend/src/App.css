@@ -1,0 +1,72 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9; /* Cor de fundo clara */
+  border: 1px solid #e0e0e0; /* Borda leve */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.input-container {
+  margin-bottom: 15px;
+  width: 100%; /* Permitir que os campos ocupem a largura total */
+}
+
+input[type="number"],
+input[type="text"] {
+  width: calc(100% - 20px); /* Ajustar largura com margens */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Aumentar tamanho da fonte */
+  margin-right: 10px; /* Espaçamento entre o input e o botão */
+}
+
+.primary-button,
+.secondary-button {
+  padding: 10px 20px; /* Aumentar o tamanho do botão */
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas nos botões */
+  font-size: 16px; /* Aumentar tamanho da fonte */
+  cursor: pointer; /* Mostrar cursor de mão */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.primary-button {
+  background-color: #4caf50; /* Verde moderno */
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #45a049; /* Verde escuro ao passar o mouse */
+}
+
+.secondary-button {
+  background-color: #2196f3; /* Azul moderno */
+  color: white;
+  margin-left: 10px; /* Espaçamento entre os botões */
+}
+
+.secondary-button:hover {
+  background-color: #1e88e5; /* Azul escuro ao passar o mouse */
+}
+
+.json-output-container {
+  width: 100%; /* Permitir que o JSON ocupe a largura total */
+  padding: 10px;
+  border: 1px solid #ccc; /* Borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #fff; /* Fundo branco */
+  max-height: 300px; /* Limitar a altura do container */
+  overflow-y: auto; /* Adicionar rolagem se necessário */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
