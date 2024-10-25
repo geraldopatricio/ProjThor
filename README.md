@@ -56,6 +56,6 @@ o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usan
 [![Assista ao vídeo](./images/video2.jpg)](https://youtu.be/K_-vpvMQup0)
 
 ## Contato
-:phone: (85) 9 9150-8104
-:email: geraldo@gpsoft.com.br
+:phone: (85) 9 9150-8104<br/>
+:email: geraldo@gpsoft.com.br<br/>
 :smiley: Geraldo Patrício Melo
