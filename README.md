@@ -16,17 +16,22 @@ Analisador de Hierarquia de Palavras
 ## Instalação e uso
 ```bash
 Entre na pasta backend e execute os comando:
-
+```
+```console
 $ npm install 
 $ npm start
-
+```
+```bash
 Mesmo processo para o frontend
 O backend está para executar na porta 4000 e o front na 3000
 
-
 Para testes iniciais no backend...
 o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node.
-de:
+
+```
+```bash
+'*de:*'
+```
 $ bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose
 para: 
 $ npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose
