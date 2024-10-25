@@ -38,7 +38,10 @@ http://localhost:4000/download-json
 
 ```
 
-**teste**
+\`\`\`bash
+teste
+
+```
 
 ## Telas funcionais
 ## Backend - Testes Executados
