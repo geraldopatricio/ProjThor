@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/logo.jpg" width="300" alt="Logo" />
+  <img src="./images/logo.jpg" width="400" alt="Logo" />
 </p>
 
 ## Objetivo e detalhes do Projeto
@@ -25,10 +25,10 @@ O backend está para executar na porta 4000 e o front na 3000
 
 ## Telas funcionais
 ## Backend
-<img src="./images/teste1.jpg" width="400" alt="Logo" />
+<img src="./images/teste1.jpg" width="600" alt="Logo" />
 
 ## Frontend
-<img src="./images/teste2.jpg" width="400" alt="Logo" />
+<img src="./images/teste2.jpg" width="600" alt="Logo" />
 
 ## Video Demo
-[![Assista ao vídeo](./images/video.jpg width="200")](https://www.youtube.com/m5abKpHU7sk)
+[![Assista ao vídeo](./images/video.jpg)](https://www.youtube.com/m5abKpHU7sk)
