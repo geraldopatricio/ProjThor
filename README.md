@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/logo.jpg" width="400" alt="Logo" />
+  <img src="./images/logo1.jpg" alt="Logo" />
 </p>
 
 ## Objetivo e detalhes do Projeto
