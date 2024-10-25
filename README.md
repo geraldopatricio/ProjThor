@@ -28,10 +28,12 @@ o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usan
 
 | Mudanças efetuardas no projeto inicial                                         |
 |--------------------------------------------------------------------------------|
-| De bun:                                                                            |
+| De bun:                                                                        |
 | bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose                  |
 | Para:                                                                          |
 | npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose |
+| Motivo:                                                                        |
+| Para uso no windows                                                            |
 
 
 **Rotas criadas:**
