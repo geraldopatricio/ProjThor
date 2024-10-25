@@ -24,10 +24,16 @@ O backend está para executar na porta 4000 e o front na 3000
 
 Para testes iniciais no backend...
 o projeto era pra ser usado o Bun, fiz uma aderencia para windows no nodejs usando o npx ts-node.
-de:
-$ bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose
-para: 
-$ npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose
+```
+
+| De:                                                                            |
+|--------------------------------------------------------------------------------|
+| bun run cli.ts analyze --depth 2 "Eu amo papagaios" --verbose                  |
+|--------------------------------------------------------------------------------|
+| Para:                                                                          |
+|--------------------------------------------------------------------------------|
+| npx ts-node src/cli.ts analyze --depth 5 --phrase "Eu amo papagaios" --verbose |
+
 
 As rotas criadas são:
 Para salvar o json no backend:
@@ -36,7 +42,9 @@ http://localhost:4000/save-json
 Para fazer o download:
 http://localhost:4000/download-json
 
-```
+
+
+
 
 ## Telas funcionais
 ## Backend - Testes Executados
