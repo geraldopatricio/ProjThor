@@ -38,12 +38,6 @@ http://localhost:4000/download-json
 
 ```
 
-
-```console
-teste
-
-```
-
 ## Telas funcionais
 ## Backend - Testes Executados
 <img src="./images/teste1.jpg" width="800" alt="Logo" />
