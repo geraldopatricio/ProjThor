@@ -5,8 +5,10 @@
 ## Objetivo e detalhes do Projeto
 ```bash
 Analisador de Hierarquia de Palavras
-1 - Analisa via console a hierarqui e niveis, mostrando a quantidade e nivel encontrado da palavra no backend.
-2 - Informa a quantidade de niveis desejados no front, montando o json com base na palavra e nível.
+1 - Analisa via console a hierarqui e niveis, mostrando a quantidade e nivel
+    encontrado da palavra no backend.
+2 - Informa a quantidade de niveis desejados no front, montando o json com base
+    na palavra e nível.
 3 - Salva o Json montado no backend.
 4 - Executa o download do arquivo json gerado.
 ```
@@ -31,4 +33,4 @@ O backend está para executar na porta 4000 e o front na 3000
 <img src="./images/teste2.jpg" width="800" alt="Logo" />
 
 ## Video Demo
-[![Assista ao vídeo](./images/video.jpg)](https://www.youtube.com/m5abKpHU7sk)
+[![Assista ao vídeo](./images/video2.jpg)](https://www.youtube.com/m5abKpHU7sk)
